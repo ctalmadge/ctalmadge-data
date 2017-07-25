@@ -37,7 +37,7 @@ TIMESTAMP=`date --iso-8601=seconds`
 IDENTIFIER = echo $RANDOM
 
 #write answers to tmp.csv
-echo $TIMESTAMP, $IDENTIFIER, $BORN, $FAVEANIMAL, $HOBBY, $AGE, $DREAMJOB > ./tmp.csv
+echo $IDENTIFIER, $TIMESTAMP, $BORN, $FAVEANIMAL, $HOBBY, $AGE, $DREAMJOB > ./tmp.csv
 
 #print out tmp.csv
 cat tmp.csv
