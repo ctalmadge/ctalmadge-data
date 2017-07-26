@@ -34,7 +34,7 @@ read DREAMJOB
 TIMESTAMP=`date --iso-8601=seconds`
 
 #create unique identifier
-IDENTIFIER = echo $RANDOM
+IDENTIFIER = "$RANDOM"
 
 #write answers to tmp.csv
 echo $IDENTIFIER, $TIMESTAMP, $BORN, $FAVEANIMAL, $HOBBY, $AGE, $DREAMJOB > ./tmp.csv
